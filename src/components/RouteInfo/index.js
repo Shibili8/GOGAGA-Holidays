@@ -85,7 +85,7 @@ const RouteInfo = () =>{
                         type="date"
                         value={departureDate}
                         onChange={(e) => setDepartureDate(e.target.value)}
-                        className="w-32 focus:highlight-none w-48 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-32 focus:highlight-none focus:outline-none focus:ring-2 focus:ring-blue-500"
                     />
                 </div>
             </div>
@@ -114,7 +114,7 @@ const RouteInfo = () =>{
                         type="date"
                         value={arrivalDate}
                         onChange={(e) => setArrivalDate(e.target.value)}
-                        className="w-32 focus:highlight-none w-48 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="w-32 focus:highlight-none  focus:outline-none focus:ring-2 focus:ring-blue-500"
                     />
                 </div>
                 
