@@ -1,6 +1,6 @@
-import { useContext } from "react"
+
 import FlightCard from "./FlightCard"
-import { UIContext } from "../../context/UIContext"
+
 
 const flightListConstants=[
     {
@@ -97,7 +97,6 @@ const flightListConstants=[
 
 
 const FlightList = () =>{
-    const {setDepartureFlight, setReturnFlight} = useContext(UIContext)
     return (
     <div className="w-full flex items-center py-3 px-3">
         <div className="w-2/4 px-2 py-3 flex flex-col items-center">
