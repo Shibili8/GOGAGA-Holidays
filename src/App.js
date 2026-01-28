@@ -17,7 +17,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 import "./App.css";
 
 const App = () => {
-  const { activePackageTab } = useContext(UIContext);
+  const {isSidebarOpen, activePackageTab } = useContext(UIContext);
 
   return (
     <div className="h-screen flex flex-row">
